@@ -17,12 +17,11 @@ int	ft_strlen(char *str);
 int	main(void)
 {
 	char	str[] = "hello";
-	ft_strlen(str);
-	printf("%d", ft_strlen(str));
+	printf("Result : %d\n", ft_strlen(str));
 	return (0);
 }
 
 /*
-Fichier main.c pour tester C01_ex06
-ne pas envoyer avec printf
+File main.c to check C01_ex06
+Do not sent this file for evaluation
 */
