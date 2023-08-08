@@ -6,7 +6,7 @@
 /*   By: thuvo <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/10 13:01:04 by thuvo             #+#    #+#             */
-/*   Updated: 2023/07/11 12:15:45 by thuvo            ###   ########.fr       */
+/*   Updated: 2023/07/27 01:32:50 by thuvo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	ft_rev_int_tab(int *tab, int size)
 	int	swap;
 
 	i = 0;
-	while (i < (size / 2))
+	while (i < size)
 	{
 		swap = tab[i];
 		tab[i] = tab[size - 1];

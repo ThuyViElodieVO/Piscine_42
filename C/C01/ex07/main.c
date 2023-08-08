@@ -17,9 +17,9 @@ void	ft_rev_int_tab(int *tab, int size);
 
 int     main(void)
 {
-    int     tab[17] = {0, 2, 98, 33, 4, 598, 60, 7, 86, 9, 100, 11, 162, 3, 14, 45, 16};
-    int     i;
-    int     size;
+    int tab[17] = {0, 2, 98, 33, 4, 598, 60, 7, 86, 9, 100, 11, 162, 3, 14, 45, 16};
+    int i;
+    int size;
     
     i = 0;
     size = 17;
