@@ -25,7 +25,7 @@ int	main(void)
 	size = 17;
 	while (i < size)
 	{
-		printf("tab init : %d\n", tab[i]);
+		printf("Tab init : %d\n", tab[i]);
 		i++;
 	}
 	write (1, "\n", 1);
@@ -39,4 +39,7 @@ int	main(void)
 	return (0);
 }
 
-//Fichier main.c pour eval C01_ex08
+/*
+File main.c to check C01_ex08
+Do no sent this for evaluation
+*/
